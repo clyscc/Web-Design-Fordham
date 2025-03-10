@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(32, 32, 32); 
+}
+
+#face{
+    width:100%;
+    height: 100vh;
+    background-image: url(face.jpg); 
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    z-index: 1;
+}
+
+#text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-size:  20px;
+    z-index: 40;
+    padding-bottom: 30px;;
+}
+
+@media screen and (max-width:1135px){
+#layer-1{
+    width:100%;
+    height: 100vh;
+    background-image: url(layer-1.svg);
+    background-size: 85vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    z-index: 5;
+    right: 1.5%;
+    right:1%;
+    top:2%;
+    transform: scale(1.1,1.1);
+}}
+
+
+@media screen and (max-width:1101px){
+#layer-2{
+   
+    width:100%;
+    height: 100vh;
+    background-image: url(layer-2.svg);
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    z-index: 6;
+    left:23%;
+    top:2%;
+    transform: scale(1.5,1.5);
+    
+}}
+@media screen and (max-width:1067px){
+#layer-3{
+    width:100%;
+    height: 100vh;
+    background-image: url(layer-3.svg);
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    z-index: 7;
+    left:21%;
+    top:2%;
+    transform: scale(1.5,1.5);
+    
+}}
+
+@media screen and (max-width:1033px){
+#layer-4{
+    width:100%;
+    height: 100vh;
+    background-image: url(layer-4.svg);
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    z-index: 8;
+    left:21%;
+    top:2%;
+    transform: scale(1.5,1.5);
+    
+    
+}}
+
+@media screen and (max-width:999px){
+#layer-5{
+    width:100%;
+    height: 100vh;
+    background-image: url(layer-5.svg);
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    z-index: 9;
+    left:21%;
+    top:2%;
+    transform: scale(1.5,1.5);
+    
+    
+}}
+
+@media screen and (max-width:965px){
+#layer-6{
+    width:100%;
+    height: 100vh;
+    background-image: url(layer-6.svg);
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    z-index: 10;
+    left:21%;
+    top:2%;
+    transform: scale(1.5,1.5);
+    
+    
+}}
+
+@media screen and (max-width:931px){
+#layer-7{
+    width:100%;
+    height: 100vh;
+    background-image: url(layer-7.svg);
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    z-index: 11;
+    left:21%;
+    top:2%;
+    transform: scale(1.5,1.5);
+    
+    
+}}
+
+@media screen and (max-width:897px){
+#layer-8{
+    width:100%;
+    height: 100vh;
+    background-image: url(layer-8.svg);
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    z-index: 12;
+    left:21%;
+    top:2%;
+    transform: scale(1.5,1.5);
+    
+    
+}}
+
+@media screen and (max-width:863px){
+#layer-9{
+    width:100%;
+    height: 100vh;
+    background-image: url(layer-9.svg);
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    z-index: 13;
+    left:21%;
+    top:2%;
+    transform: scale(1.5,1.5);
+    
+    
+}}
+
+@media screen and (max-width:829px){
+#layer-10{
+    width:100%;
+    height: 100vh;
+    background-image: url(layer-10.svg);
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    z-index: 14;
+    left:21%;
+    top:2%;
+    transform: scale(1.5,1.5);
+    
+    
+}}
+
+@media screen and (max-width:795px){
+#layer-11{
+    width:100%;
+    height: 100vh;
+    background-image: url(layer-11.svg);
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    z-index: 15;
+    left:21%;
+    top:2%;
+    transform: scale(1.5,1.5);
+    
+    
+}}
+@media screen and (max-width:761px){
+#layer-12{
+    width:100%;
+    height: 100vh;
+    background-image: url(layer-12.svg);
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    z-index: 16;
+    left:21%;
+    top:2%;
+    transform: scale(1.5,1.5);
+    
+    
+}}
+
+@media screen and (max-width:727px){
+#layer-13{
+    width:100%;
+    height: 100vh;
+    background-image: url(layer-13.svg);
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    z-index: 17;
+    left:21%;
+    top:2%;
+    transform: scale(1.5,1.5);
+    
+}
+}
+
+@media screen and (max-width:693px){
+#layer-14{
+    width:100%;
+    height: 100vh;
+    background-image: url(layer-14.svg);
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    z-index: 18;
+    left:21%;
+    top:2%;
+    transform: scale(1.5,1.5);
+    
+}    
+}
+@media screen and (max-width:659px){
+#layer-15{
+    width:100%;
+    height: 100vh;
+    background-image: url(layer-15.svg);
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    z-index: 19;
+    left:21%;
+    top:2%;
+    transform: scale(1.5,1.5);
+    
+    
+}}
+
